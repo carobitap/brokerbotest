@@ -8,7 +8,7 @@ const bitsoAPI = new bitso(
     bitsoApiKey,
     bitsoApiSecret,
     bitsoUrl,
-    "/api/v3"
+    "/api/v3" 
 );
 
 function displayError(Exception) {
