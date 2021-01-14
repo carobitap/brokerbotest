@@ -12,7 +12,7 @@ const bitsoAPI = new bitso(
 );
 
 function displayError(Exception) {
-    console.log("Failed");
+    console.log("Failed"); 
     if (Exception.response !== undefined) {
         console.log(
             `${Exception.response.status} : ${

@@ -7,7 +7,7 @@ var app = express();
     key: ''
     secret: ''
     authorizeMovements: true
-}*/ 
+}*/  
 
 //Middlewares
 app.use(logger('dev'));
